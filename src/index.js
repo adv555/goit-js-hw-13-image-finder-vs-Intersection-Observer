@@ -35,6 +35,7 @@ function onSearch(e) {
     .then(data => {
       refs.gallery.innerHTML = '';
       renderSearchContent(data);
+      disableSpinner();
       checkData(data);
       registerIntersectionObserver();
     })
