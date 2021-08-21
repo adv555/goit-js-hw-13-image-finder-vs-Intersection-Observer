@@ -1,0 +1,16 @@
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+
+// Стили для файла с примером HTML-фрагмента
+@import './utils/variables';
+@import './utils/mixins';
+@import './base/common';
+// @import './base/container';
+@import './components/search-form';
+@import './layouts/gallery';
+@import './components/btn';
+@import './components/_back-to-top-btn';
+@import './components/notice';
+@import './components/spinner';

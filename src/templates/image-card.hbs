@@ -1,0 +1,33 @@
+{{#each this}}
+  <li class='gallery-list__card'>
+    <div class='photo-card gallery-list__card-thumb'>
+      <img
+        loading='lazy'
+        src='{{webformatURL}}'
+        data-src='{{largeImageURL}}'
+        alt=''
+        height='250px'
+        width='200px'
+      />
+    </div>
+    <div class='stats gallery-list__card-content'>
+      <p class='stats-item'>
+        <i class='material-icons'>thumb_up</i>
+        {{likes}}
+      </p>
+      <p class='stats-item'>
+        <i class='material-icons'>visibility</i>
+        {{views}}
+      </p>
+      <p class='stats-item'>
+        <i class='material-icons'>comment</i>
+        {{comments}}
+      </p>
+      <p class='stats-item'>
+        <i class='material-icons'>cloud_download</i>
+        {{downloads}}
+      </p>
+    </div>
+    {{! </a> }}
+  </li>
+{{/each}}
