@@ -10,6 +10,7 @@ export default function createNotice() {
     type: 'notice',
     delay: 500,
     minHeight: '80px',
+
     addClass: 'notice',
     text: 'No image has been found. Please enter a more specific query!',
   });

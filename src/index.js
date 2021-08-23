@@ -6,7 +6,7 @@ import zoomImage from './js/image-lightbox';
 import { enableSpinner, disableSpinner } from './js/spinner';
 import createNotice from './js/notices';
 import backToTopBtn from './js/back-to-top-btn';
-import { from } from 'form-data';
+// import { from } from 'form-data';
 
 // =========== new class instance
 const imageServiceApi = new ImageServiceApi();
